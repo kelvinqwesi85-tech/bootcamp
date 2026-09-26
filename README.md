@@ -1,2 +1,2 @@
-# bootcamp
-This is a webpage created using html , css and javascript
+# My projects
+These are my projects
