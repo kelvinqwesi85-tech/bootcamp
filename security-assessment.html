@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Eagle security assessments, site reviews, and protection planning."
+    />
+    <title>Security assessment | Eagle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="service-page.css" />
+  </head>
+  <body>
+    <div class="service-dark">
+      <div class="topbar">
+        <div class="wrap">
+          <span>Control room staffed 24 hours, every day</span
+          ><a href="tel:+233000000000">Call +233 00 000 0000</a>
+        </div>
+      </div>
+      <nav class="service-nav wrap">
+        <a class="brand" href="index.html"
+          ><img src="Assets/round%20eagle.jpeg" alt="" class="nav-logo" /><span
+            >EAGLE</span
+          ></a
+        >
+        <div class="service-links">
+          <a href="index.html#services">All services</a
+          ><a href="index.html#contact">Contact</a
+          ><a class="nav-cta" href="#request">Book an assessment</a>
+        </div>
+      </nav>
+      <section class="service-hero wrap">
+        <div>
+          <p class="eyebrow">03 / Security intelligence</p>
+          <h1>Find the weak points before someone <em>else does.</em></h1>
+          <div class="hero-cta">
+            <a class="btn-amber" href="#request">Book an assessment</a
+            ><a class="back-link" href="index.html">Back to Eagle</a>
+          </div>
+        </div>
+        <p class="lead">
+          A practical site review that turns uncertainty into a prioritized
+          security plan for your people, property, and operations.
+        </p>
+      </section>
+    </div>
+    <main>
+      <section class="detail-section wrap">
+        <h2>A plain view of what to fix first.</h2>
+        <div class="detail-grid">
+          <article class="detail-card">
+            <strong>01 / Inspect</strong>
+            <h3>Site risk assessment</h3>
+            <p>
+              We walk the property, review routines, and identify physical and
+              operational weak points.
+            </p>
+          </article>
+          <article class="detail-card">
+            <strong>02 / Plan</strong>
+            <h3>Technology and posts</h3>
+            <p>
+              We recommend cameras, alarms, access controls, guard posts, and
+              patrol coverage that fit the site.
+            </p>
+          </article>
+          <article class="detail-card">
+            <strong>03 / Improve</strong>
+            <h3>Written action plan</h3>
+            <p>
+              You receive clear priorities, ownership, and practical next steps
+              rather than a vague report.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="package-section">
+        <div class="wrap">
+          <p class="eyebrow">Choose your assessment package</p>
+          <h2>Get the level of advice your property needs.</h2>
+          <div class="package-grid">
+            <article class="package-card">
+              <img
+                src="Assets/protected-property.jpg"
+                alt="Property being considered for a security assessment"
+              />
+              <div class="package-card-body">
+                <strong>Quick review</strong>
+                <h3>Site walk-through</h3>
+                <p>
+                  A focused visit to identify obvious risks and immediate
+                  improvements.
+                </p>
+                <a href="#request" data-package="Site walk-through"
+                  >Book this package &#8594;</a
+                >
+              </div>
+            </article>
+            <article class="package-card">
+              <img
+                src="Assets/security-planning.jpg"
+                alt="Team discussing security planning"
+              />
+              <div class="package-card-body">
+                <strong>Full report</strong>
+                <h3>Risk assessment</h3>
+                <p>
+                  A written review of people, property, routines, technology,
+                  and weak points.
+                </p>
+                <a href="#request" data-package="Risk assessment"
+                  >Book this package &#8594;</a
+                >
+              </div>
+            </article>
+            <article class="package-card">
+              <img
+                src="Assets/security-building.jpg"
+                alt="Commercial building requiring a security plan"
+              />
+              <div class="package-card-body">
+                <strong>Next stage</strong>
+                <h3>Assessment and plan</h3>
+                <p>
+                  Assessment plus a prioritized roadmap for guards, cameras,
+                  alarms, and access.
+                </p>
+                <a href="#request" data-package="Assessment and plan"
+                  >Book this package &#8594;</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="process">
+        <div class="wrap">
+          <h2>What you receive</h2>
+          <ol class="process-list">
+            <li>
+              <h3>Walk the site</h3>
+              <p>
+                We observe entrances, boundaries, routines, lighting, and
+                vulnerable areas.
+              </p>
+            </li>
+            <li>
+              <h3>Map the risk</h3>
+              <p>
+                We record likely threats, impact, current controls, and gaps
+                that need attention.
+              </p>
+            </li>
+            <li>
+              <h3>Get the plan</h3>
+              <p>
+                We present a prioritized plan that can be implemented in stages.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="request-section" id="request">
+        <div class="wrap request-grid">
+          <div>
+            <p class="eyebrow">Book an assessment</p>
+            <h2>Make your next security decision an informed one.</h2>
+            <p class="intro">
+              Tell us about the property, what has changed, and the concerns you
+              want the assessment to answer.
+            </p>
+          </div>
+          <form
+            class="request-form"
+            id="service-request"
+            data-service="Security assessment"
+          >
+            <input type="hidden" name="package" />
+            <p class="selected-package" id="selected-package">
+              Choose a package above or describe a custom requirement.
+            </p>
+            <label
+              >Name<input class="form-control" name="name" required /></label
+            ><label
+              >Work email<input
+                class="form-control"
+                type="email"
+                name="email"
+                required /></label
+            ><label
+              >Phone<input class="form-control" name="phone" required /></label
+            ><label
+              >Assessment needs<textarea
+                class="form-control"
+                name="message"
+                rows="4"
+                required
+              ></textarea></label
+            ><button class="btn-amber" type="submit">
+              Request this service
+            </button>
+            <p class="request-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="service-footer">
+      <div class="wrap">
+        <a class="brand" href="index.html"
+          ><img src="Assets/round%20eagle.jpeg" alt="" class="nav-logo" /><span
+            >EAGLE</span
+          ></a
+        ><a href="index.html#services">View all services</a>
+      </div>
+    </footer>
+    <script src="service-page.js" defer></script>
+  </body>
+</html>
