@@ -1,0 +1,9 @@
+{
+  "name": "eagle-security-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Eagle security services website and consultation API",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

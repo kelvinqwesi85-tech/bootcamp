@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Eagle virtual security monitoring and alarm response."
+    />
+    <title>Virtual monitoring | Eagle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="service-page.css" />
+  </head>
+  <body>
+    <div class="service-dark">
+      <div class="topbar">
+        <div class="wrap">
+          <span>Control room staffed 24 hours, every day</span
+          ><a href="tel:+233000000000">Call +233 00 000 0000</a>
+        </div>
+      </div>
+      <nav class="service-nav wrap">
+        <a class="brand" href="index.html"
+          ><img src="Assets/round%20eagle.jpeg" alt="" class="nav-logo" /><span
+            >EAGLE</span
+          ></a
+        >
+        <div class="service-links">
+          <a href="index.html#services">All services</a
+          ><a href="index.html#contact">Contact</a
+          ><a class="nav-cta" href="#request">Request monitoring</a>
+        </div>
+      </nav>
+      <section class="service-hero wrap">
+        <div>
+          <p class="eyebrow">01 / Virtual security</p>
+          <h1>Someone is always <em>looking.</em></h1>
+          <div class="hero-cta">
+            <a class="btn-amber" href="#request">Request monitoring</a
+            ><a class="back-link" href="index.html">Back to Eagle</a>
+          </div>
+        </div>
+        <p class="lead">
+          A staffed control room watches your cameras and alarms around the
+          clock, verifies what is real, and coordinates the right response
+          before a situation grows.
+        </p>
+      </section>
+    </div>
+    <main>
+      <section class="detail-section wrap">
+        <h2>Remote coverage that does more than record.</h2>
+        <div class="detail-grid">
+          <article class="detail-card">
+            <strong>01 / Watch</strong>
+            <h3>24/7 CCTV monitoring</h3>
+            <p>
+              Operators actively review your cameras and identify movement,
+              access attempts, and unusual activity.
+            </p>
+          </article>
+          <article class="detail-card">
+            <strong>02 / Verify</strong>
+            <h3>Alarm response</h3>
+            <p>
+              We verify alarms by live video or audio before contacting your
+              team or dispatching help.
+            </p>
+          </article>
+          <article class="detail-card">
+            <strong>03 / Report</strong>
+            <h3>Clear incident records</h3>
+            <p>
+              Every verified event is time-stamped and documented so your team
+              knows exactly what happened.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="package-section">
+        <div class="wrap">
+          <p class="eyebrow">Choose your monitoring package</p>
+          <h2>Start with the coverage your property needs.</h2>
+          <div class="package-grid">
+            <article class="package-card">
+              <img
+                src="Assets/security-camera.jpg"
+                alt="Security camera watching a property entrance"
+              />
+              <div class="package-card-body">
+                <strong>After-hours</strong>
+                <h3>Night watch</h3>
+                <p>
+                  Focused monitoring for closed hours, weekends, and overnight
+                  risk.
+                </p>
+                <a href="#request" data-package="Night watch"
+                  >Book this package &#8594;</a
+                >
+              </div>
+            </article>
+            <article class="package-card">
+              <img
+                src="Assets/security-building.jpg"
+                alt="Building monitored by security cameras"
+              />
+              <div class="package-card-body">
+                <strong>Always on</strong>
+                <h3>24/7 site watch</h3>
+                <p>
+                  Continuous video and alarm monitoring for an active property.
+                </p>
+                <a href="#request" data-package="24/7 site watch"
+                  >Book this package &#8594;</a
+                >
+              </div>
+            </article>
+            <article class="package-card">
+              <img
+                src="Assets/protected-property.jpg"
+                alt="Protected commercial property"
+              />
+              <div class="package-card-body">
+                <strong>Connected site</strong>
+                <h3>Monitoring plus response</h3>
+                <p>
+                  Monitoring connected to patrols, contacts, and a clear
+                  escalation plan.
+                </p>
+                <a href="#request" data-package="Monitoring plus response"
+                  >Book this package &#8594;</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="process">
+        <div class="wrap">
+          <h2>How virtual monitoring works</h2>
+          <ol class="process-list">
+            <li>
+              <h3>Connect your site</h3>
+              <p>
+                We review your cameras, alarms, access points, and escalation
+                contacts.
+              </p>
+            </li>
+            <li>
+              <h3>Watch and verify</h3>
+              <p>
+                Our operators investigate alerts and use talk-down when it is
+                safe and appropriate.
+              </p>
+            </li>
+            <li>
+              <h3>Coordinate response</h3>
+              <p>
+                We contact your nominated people, dispatch patrols, or escalate
+                to emergency services.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="request-section" id="request">
+        <div class="wrap request-grid">
+          <div>
+            <p class="eyebrow">Start a coverage plan</p>
+            <h2>Make your site visible after hours.</h2>
+            <p class="intro">
+              Tell us about the property, the cameras you already have, and the
+              hours you need covered.
+            </p>
+          </div>
+          <form
+            class="request-form"
+            id="service-request"
+            data-service="Virtual monitoring"
+          >
+            <input type="hidden" name="package" />
+            <p class="selected-package" id="selected-package">
+              Choose a package above or describe a custom requirement.
+            </p>
+            <label
+              >Name<input class="form-control" name="name" required /></label
+            ><label
+              >Work email<input
+                class="form-control"
+                type="email"
+                name="email"
+                required /></label
+            ><label
+              >Phone<input class="form-control" name="phone" required /></label
+            ><label
+              >Property and coverage needs<textarea
+                class="form-control"
+                name="message"
+                rows="4"
+                required
+              ></textarea></label
+            ><button class="btn-amber" type="submit">
+              Request this service
+            </button>
+            <p class="request-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="service-footer">
+      <div class="wrap">
+        <a class="brand" href="index.html"
+          ><img src="Assets/round%20eagle.jpeg" alt="" class="nav-logo" /><span
+            >EAGLE</span
+          ></a
+        ><a href="index.html#services">View all services</a>
+      </div>
+    </footer>
+    <script src="service-page.js" defer></script>
+  </body>
+</html>
